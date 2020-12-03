@@ -1,0 +1,52 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "HelloWorld"
+    },
+    {
+      "name": "mainability_description",
+      "value": "hap sample empty page"
+    },
+    {
+      "name": "secondability_description",
+      "value": "hap sample empty page"
+    },
+    {
+      "name": "sleep",
+      "value": "睡眠"
+    },
+    {
+      "name": "dash",
+      "value": "6"
+    },
+    {
+      "name": "double_dash",
+      "value": "30"
+    },
+    {
+      "name": "hour",
+      "value": "小时"
+    },
+    {
+      "name": "minute",
+      "value": "分钟"
+    },
+    {
+      "name": "goal",
+      "value": "目标"
+    },
+    {
+      "name": "target_sleep_time",
+      "value": "8"
+    },
+    {
+      "name": "no_data",
+      "value": "no data"
+    },
+    {
+      "name": "wearing_watch_tips",
+      "value": "wearing_watch_tips"
+    }
+  ]
+}

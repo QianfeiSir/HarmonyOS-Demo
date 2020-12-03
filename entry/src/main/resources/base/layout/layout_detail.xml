@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#FF000000"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:detail_date"
+        ohos:height="23vp"
+        ohos:width="match_parent"
+        ohos:text_alignment="center"
+        ohos:text_color="$color:sleep_text_white"
+        ohos:text_size="19fp"
+        ohos:top_margin="20vp"
+        ohos:alpha="1"/>
+    
+    <DependentLayout
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:top_margin="30vp">
+
+        <Image
+            ohos:id="$+id:icon_moon_top"
+            ohos:height="46vp"
+            ohos:width="46vp"
+            ohos:layout_alignment="vertical_center"
+            ohos:left_margin="15vp"
+            ohos:image_src="$media:Media_ic_icon_moon"/>
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:right_of="$id:icon_moon_top"
+            ohos:orientation="vertical"
+            ohos:layout_alignment="vertical_center">
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text_alignment="left"
+                ohos:text_size="16fp"
+                ohos:text_color="$color:sleep_text_white"
+                ohos:text="夜间睡眠23:30-6:00"
+                ohos:alpha="0.66"/>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="6"
+                    ohos:text_color="$color:sleep_text_blue"
+                    ohos:text_size="24fp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="$string:hour"
+                    ohos:text_color="$color:sleep_text_white"
+                    ohos:text_size="14fp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="30"
+                    ohos:text_color="$color:sleep_text_blue"
+                    ohos:text_size="24fp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="$string:minute"
+                    ohos:text_color="$color:sleep_text_white"
+                    ohos:text_size="14fp"/>
+            </DirectionalLayout>
+
+        </DirectionalLayout>
+
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:top_margin="5vp">
+
+        <Image
+            ohos:id="$+id:icon_moon_bottom"
+            ohos:height="46vp"
+            ohos:width="46vp"
+            ohos:layout_alignment="vertical_center"
+            ohos:left_margin="15vp"
+            ohos:image_src="$media:Media_ic_icon_moon"/>
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:right_of="$id:icon_moon_bottom"
+            ohos:orientation="vertical"
+            ohos:layout_alignment="vertical_center">
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text_alignment="left"
+                ohos:text_size="16fp"
+                ohos:text_color="$color:sleep_text_white"
+                ohos:text="零星小睡"
+                ohos:alpha="0.66"/>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="1"
+                    ohos:text_color="$color:sleep_text_blue"
+                    ohos:text_size="24fp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="$string:hour"
+                    ohos:text_color="$color:sleep_text_white"
+                    ohos:text_size="14fp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="30"
+                    ohos:text_color="$color:sleep_text_blue"
+                    ohos:text_size="24fp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="$string:minute"
+                    ohos:text_color="$color:sleep_text_white"
+                    ohos:text_size="14fp"/>
+            </DirectionalLayout>
+
+        </DirectionalLayout>
+
+    </DependentLayout>
+
+<!--    <Text-->
+<!--        ohos:height="match_content"-->
+<!--        ohos:width="match_content"-->
+<!--        ohos:alpha="0.66"-->
+<!--        ohos:layout_alignment="horizontal_center"-->
+<!--        ohos:text="$string:no_data"-->
+<!--        ohos:text_alignment="center"-->
+<!--        ohos:text_color="$color:sleep_text_white"-->
+<!--        ohos:text_size="16vp"-->
+<!--        ohos:top_margin="12vp"/>-->
+
+<!--    <Text-->
+<!--        ohos:height="match_content"-->
+<!--        ohos:width="match_content"-->
+<!--        ohos:alpha="0.66"-->
+<!--        ohos:layout_alignment="horizontal_center"-->
+<!--        ohos:text="$string:wearing_watch_tips"-->
+<!--        ohos:text_alignment="center"-->
+<!--        ohos:text_color="$color:sleep_text_white"-->
+<!--        ohos:text_size="16vp"/>-->
+</DirectionalLayout>

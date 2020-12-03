@@ -1,0 +1,12 @@
+{
+  "color": [
+    {
+      "name" : "sleep_text_white",
+      "value": "#ffffff"
+    },
+    {
+      "name": "sleep_text_blue",
+      "value": "#1296db"
+    }
+  ]
+}

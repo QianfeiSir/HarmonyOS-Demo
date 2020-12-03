@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#000000">
+
+    <Text
+        ohos:id="$+id:text_helloworld"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="Harmony OS"
+        ohos:text_size="32fp"
+        ohos:text_color="white"
+        ohos:center_in_parent="true" />
+
+    <Button
+        ohos:id="$+id:button"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Next"
+        ohos:text_size="19fp"
+        ohos:text_color="white"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="8vp"
+        ohos:right_padding="80vp"
+        ohos:left_padding="80vp"
+        ohos:center_in_parent="true"
+        ohos:align_parent_bottom="true"
+        ohos:background_element="$graphic:background_button"/>
+
+</DependentLayout>
